@@ -38,5 +38,5 @@ app.use(
 const port = process.env.port || 8080;
 
 app.listen(port, () => {
-  console.log("伺服器運行中port8080");
+  console.log("伺服器運行中");
 });
