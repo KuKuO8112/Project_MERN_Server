@@ -17,7 +17,7 @@
    
 7. **passport**：對使用者進行身分驗證，使其能對記帳資料做操作。  
 
-## 基本功能鍵介紹
+## 基本功能介紹
 moudels 內 accounts 和 user moudels 作為 mongoose Schema，並建立 methods 進行密碼驗證等等。  
   
 routes 內 auth-route 和 account-route， 接收前端的各種 request 及處理，並由 validation 內的 Joi 套件對資料型態及格式做驗證。  
