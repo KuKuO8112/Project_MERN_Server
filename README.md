@@ -4,18 +4,18 @@
 ## 使用套件
 
 1. **bcrypt** ：使用 bcrypt 未密碼進行加密。  
-2.   
-3. **dotenv**：使用 .env 存放環境變數。  
-4.   
-5. **express**：後端框架。
-6.   
-7. **Joi**：Joi 能對前端傳送的資料做格式及資料類型的驗證，並產生錯誤訊息以傳送給前端。  
-8.   
-9. **JSON Web Token**：能將用戶資訊做簽名形成 token，並回傳給前端，作為瀏覽網站時的身分驗證。  
-10.   
-11. **mongoose**：透過 mongoose 連結 mongoDB，並對資料進行操作。  
-12.   
-13. **passport**：對使用者進行身分驗證，使其能對記帳資料做操作。  
+   
+2. **dotenv**：使用 .env 存放環境變數。  
+   
+3. **express**：後端框架。
+   
+4. **Joi**：Joi 能對前端傳送的資料做格式及資料類型的驗證，並產生錯誤訊息以傳送給前端。  
+   
+5. **JSON Web Token**：能將用戶資訊做簽名形成 token，並回傳給前端，作為瀏覽網站時的身分驗證。  
+   
+6. **mongoose**：透過 mongoose 連結 mongoDB，並對資料進行操作。  
+   
+7. **passport**：對使用者進行身分驗證，使其能對記帳資料做操作。  
 
 ## 基本功能鍵介紹
 moudels 內 accounts 和 user moudels 作為 mongoose Schema，並建立 methods 進行密碼驗證等等。  
